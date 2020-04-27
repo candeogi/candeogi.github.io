@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
+		<title>Waveform</title>
+	</head>
+
+	<body>
+		<h1>waveform</h1>
+		<audio src="https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3" type="audio/mpeg" crossorigin="anonymous"></audio>
+		<!--audio src="piano.mp3" type="audio/mpeg" crossorigin="anonymous"></audio-->
+		<button data-playing="false" role="switch" aria-checked="false">
+		    <span>Play/Pause</span>
+		</button>
+		<input type="range" id="volume" min="0" max="2" value="1" step="0.01">
+		<script type="text/javascript" src="waveform.js"></script>
+	</body>
+</html>
